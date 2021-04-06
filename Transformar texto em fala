@@ -1,0 +1,9 @@
+#importar a biblioteca 
+import pyttsx3
+ia = pyttsx3.init()
+#Fará com que o terminal mostre "escreva" e você digitará o que deseja
+msg_ia = input("Escreva:")
+#Faz com que a I.A Fale. 
+ia.say(msg_ia)
+#Este comando faz com que rode o código e depois faz parar.
+ia.runAndWait()
