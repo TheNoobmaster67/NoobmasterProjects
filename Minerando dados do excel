@@ -1,0 +1,6 @@
+#pip install pandas.
+import pandas as pd
+#O "R" indica para o Python que é um diretório.
+x = pd.read_excel(r"") #Salvar o arquivo do excel, ir em propriedades e pegar o diretório dele e colocar nos parenteses.
+#Print para mostrar e/ou imprimir na tela os dados extraidos do excel.
+print(x)
