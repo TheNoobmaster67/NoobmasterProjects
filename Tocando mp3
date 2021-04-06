@@ -1,0 +1,8 @@
+#importar a biblioteca para que possa tocar o mp3
+import pygame
+
+pygame.mixer.init()
+pygame.init()
+pygame.mixer.music.load("")
+pygame.mixer.music.play()
+pygame.event.wait()
