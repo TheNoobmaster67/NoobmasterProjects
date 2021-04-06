@@ -1,0 +1,11 @@
+#Deixa o inicio do código mais agradavel.
+print("-=-=-=-=-=-=-=-=-=-=")
+#O terminal perguntará o nome do usuario.
+print("qual é o seu nome?")
+#Input serve para o usuario conseguir escrever o que se pede.
+nome = input()
+print("Quantos anos você tem?")
+idade = input()
+print(f"Bem vindo {nome} ")
+#Este print retornará "bem vindo" mais o nome do usuario
+print("-=-=-=-=-=-=-=-=-=-=")
