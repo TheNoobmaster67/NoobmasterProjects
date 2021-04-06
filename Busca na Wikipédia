@@ -1,0 +1,7 @@
+#pip install wikipedia
+import wikipedia
+
+result = wikipedia.search("") #O que você colocar dentro dos parenteses como objetivo de busca, ele irá imprimir no terminal tudo sobre.
+for search in result:
+        print(search) # Imprimirá o resultado de sua pesquisa.
+        print(wikipedia.page(search).summary) # imprimirá tudo sobre.
